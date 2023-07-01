@@ -21,3 +21,4 @@ class TestItemForm(TestCase):
         """Test Fields are Explicit in Form Metaclass"""
         form = ItemForm()
         self.assertEqual(form.Meta.fields, ['name', 'done'])
+        

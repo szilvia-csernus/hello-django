@@ -14,3 +14,4 @@ class TestViews(TestCase):
         """Test Item String Method Returns Name"""
         item = Item.objects.create(name='Test Todo Item')
         self.assertEqual(str(item), 'Test Todo Item')
+        
